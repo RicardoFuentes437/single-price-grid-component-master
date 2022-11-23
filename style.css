@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+html, body {
+  width: 100%;
+  height: 100%;
+}
+html main, body main {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(204deg, 43%, 93%);
+}
+html main .card, body main .card {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  height: 400px;
+  font-size: 16px;
+  font-family: "Karla";
+}
+html main .card .upper-section, body main .card .upper-section {
+  background-color: white;
+  padding: 20px;
+  height: 50%;
+}
+html main .card .upper-section h1, body main .card .upper-section h1 {
+  color: hsl(179deg, 62%, 43%);
+  font-weight: 700;
+  font-size: 26px;
+}
+html main .card .upper-section h3, body main .card .upper-section h3 {
+  color: hsl(71deg, 73%, 54%);
+  font-size: 22px;
+}
+html main .card .upper-section p, body main .card .upper-section p {
+  color: hsl(218deg, 22%, 67%);
+  font-weight: 400;
+}
+html main .card .lower-section, body main .card .lower-section {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+}
+html main .card .lower-section .left-section, body main .card .lower-section .left-section {
+  width: 50%;
+  background-color: hsl(179deg, 62%, 43%);
+  padding: 20px;
+}
+html main .card .lower-section .left-section h3, body main .card .lower-section .left-section h3 {
+  color: white;
+  font-weight: 700;
+  font-size: 22px;
+}
+html main .card .lower-section .left-section p, body main .card .lower-section .left-section p {
+  color: hsl(204deg, 43%, 93%);
+}
+html main .card .lower-section .left-section .price, body main .card .lower-section .left-section .price {
+  color: white;
+  font-size: 20px;
+}
+html main .card .lower-section .left-section button, body main .card .lower-section .left-section button {
+  background-color: hsl(71deg, 73%, 54%);
+  color: white;
+  border: none;
+  width: 80%;
+  height: 40px;
+  border-radius: 5px;
+}
+html main .card .lower-section .right-section, body main .card .lower-section .right-section {
+  width: 50%;
+  background-color: #4abebd;
+  padding: 20px;
+}
+html main .card .lower-section .right-section h3, body main .card .lower-section .right-section h3 {
+  color: white;
+  font-weight: 700;
+  font-size: 22px;
+}
+html main .card .lower-section .right-section p, body main .card .lower-section .right-section p {
+  color: hsl(204deg, 43%, 93%);
+  font-weight: 400;
+}/*# sourceMappingURL=style.css.map */
