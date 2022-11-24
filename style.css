@@ -15,14 +15,19 @@ html main .card, body main .card {
   display: flex;
   flex-direction: column;
   width: 700px;
-  height: 400px;
+  height: 550px;
   font-size: 16px;
   font-family: "Karla";
+  border-radius: 10px;
+  overflow: hidden;
 }
 html main .card .upper-section, body main .card .upper-section {
   background-color: white;
-  padding: 20px;
-  height: 50%;
+  padding: 40px 35px 35px 35px;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 html main .card .upper-section h1, body main .card .upper-section h1 {
   color: hsl(179deg, 62%, 43%);
@@ -32,6 +37,7 @@ html main .card .upper-section h1, body main .card .upper-section h1 {
 html main .card .upper-section h3, body main .card .upper-section h3 {
   color: hsl(71deg, 73%, 54%);
   font-size: 22px;
+  font-weight: 700;
 }
 html main .card .upper-section p, body main .card .upper-section p {
   color: hsl(218deg, 22%, 67%);
@@ -40,44 +46,91 @@ html main .card .upper-section p, body main .card .upper-section p {
 html main .card .lower-section, body main .card .lower-section {
   display: flex;
   flex-direction: row;
-  height: 50%;
+  height: 55%;
 }
 html main .card .lower-section .left-section, body main .card .lower-section .left-section {
   width: 50%;
   background-color: hsl(179deg, 62%, 43%);
-  padding: 20px;
+  padding: 45px 0px 0px 45px;
 }
 html main .card .lower-section .left-section h3, body main .card .lower-section .left-section h3 {
   color: white;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 20px;
+  padding-bottom: 15px;
 }
 html main .card .lower-section .left-section p, body main .card .lower-section .left-section p {
   color: hsl(204deg, 43%, 93%);
 }
 html main .card .lower-section .left-section .price, body main .card .lower-section .left-section .price {
+  line-height: 1;
+}
+html main .card .lower-section .left-section .price .number, body main .card .lower-section .left-section .price .number {
   color: white;
-  font-size: 20px;
+  font-size: 30px;
+  font-weight: 700;
+}
+html main .card .lower-section .left-section .price-description, body main .card .lower-section .left-section .price-description {
+  padding-bottom: 15px;
 }
 html main .card .lower-section .left-section button, body main .card .lower-section .left-section button {
   background-color: hsl(71deg, 73%, 54%);
   color: white;
   border: none;
   width: 80%;
-  height: 40px;
+  height: 50px;
   border-radius: 5px;
+}
+html main .card .lower-section .left-section button:hover, body main .card .lower-section .left-section button:hover {
+  background-color: hsl(71deg, 82%, 69%);
 }
 html main .card .lower-section .right-section, body main .card .lower-section .right-section {
   width: 50%;
   background-color: #4abebd;
-  padding: 20px;
+  padding: 45px 0px 0px 45px;
 }
 html main .card .lower-section .right-section h3, body main .card .lower-section .right-section h3 {
   color: white;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 20px;
+  padding-bottom: 10px;
 }
 html main .card .lower-section .right-section p, body main .card .lower-section .right-section p {
   color: hsl(204deg, 43%, 93%);
   font-weight: 400;
+}
+@media (max-width: 800px) {
+  html main, body main {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  html main .card, body main .card {
+    width: 350px;
+    height: 900px;
+    margin: 40px 0px 40px 0px;
+  }
+  html main .card .upper-section, body main .card .upper-section {
+    height: 33%;
+  }
+  html main .card .upper-section h1, body main .card .upper-section h1 {
+    font-size: 22px;
+    padding-bottom: 10px;
+  }
+  html main .card .upper-section h3, body main .card .upper-section h3 {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  html main .card .lower-section, body main .card .lower-section {
+    flex-direction: column;
+    height: 67%;
+  }
+  html main .card .lower-section .left-section, body main .card .lower-section .left-section {
+    width: 100%;
+    height: 50%;
+  }
+  html main .card .lower-section .right-section, body main .card .lower-section .right-section {
+    width: 100%;
+    height: 50%;
+  }
 }/*# sourceMappingURL=style.css.map */
