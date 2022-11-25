@@ -34,7 +34,7 @@ html main .card .upper-section h1, body main .card .upper-section h1 {
   font-weight: 700;
   font-size: 26px;
 }
-html main .card .upper-section h3, body main .card .upper-section h3 {
+html main .card .upper-section h2, body main .card .upper-section h2 {
   color: hsl(71deg, 73%, 54%);
   font-size: 22px;
   font-weight: 700;
@@ -53,7 +53,7 @@ html main .card .lower-section .left-section, body main .card .lower-section .le
   background-color: hsl(179deg, 62%, 43%);
   padding: 45px 0px 0px 45px;
 }
-html main .card .lower-section .left-section h3, body main .card .lower-section .left-section h3 {
+html main .card .lower-section .left-section h2, body main .card .lower-section .left-section h2 {
   color: white;
   font-weight: 700;
   font-size: 20px;
@@ -89,7 +89,7 @@ html main .card .lower-section .right-section, body main .card .lower-section .r
   background-color: #4abebd;
   padding: 45px 0px 0px 45px;
 }
-html main .card .lower-section .right-section h3, body main .card .lower-section .right-section h3 {
+html main .card .lower-section .right-section h2, body main .card .lower-section .right-section h2 {
   color: white;
   font-weight: 700;
   font-size: 20px;
@@ -117,7 +117,7 @@ html main .card .lower-section .right-section p, body main .card .lower-section 
     font-size: 22px;
     padding-bottom: 10px;
   }
-  html main .card .upper-section h3, body main .card .upper-section h3 {
+  html main .card .upper-section h2, body main .card .upper-section h2 {
     font-size: 18px;
     padding-bottom: 10px;
   }
